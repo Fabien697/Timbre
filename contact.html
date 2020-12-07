@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript" src="w3.js" defer></script>
+</head>
+<body class="contact">
+
+    <header>
+        <a href="accueil.html">Accueil</a>
+        <a href="produit.html">Produits</a>
+        <a href="contact.html">Contact</a>
+    </header>
+
+    <h2>Si vous voulez me contacter noter correctement vos information </h2>
+    <form action="\Users\EasyCash\Desktop\devoir\contact.html" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div>
+            <label for="question">Question :</label>
+            <textarea type="text" id="question" name="question"></textarea>
+        </div>
+        <div>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+        </div>
+    </form>
+    <h3>Question importante</h3> 
+    <h3>Voulez vous rejoindre le collectif ?</h3>
+    <div>
+        <button id="boutton" onclick="amis ()">Rejoindre le collectif</button>
+        <button id="boutton" onclick="ennemie ()">Jamais de la vie</button>
+    </div>
+    <p id="reponse"></p>
+
+    <footer>
+        <p>merci d'être passer, a une prochaine fois j'espère TY</p>
+    </footer>
+</body>
+</html>
